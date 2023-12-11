@@ -1,0 +1,81 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Pro Kabaddi</h1>
+      <img src="https://images.firstpost.com/wp-content/uploads/2014/10/South_Korea_Asian_Games_Kabaddi___priyarag.verma@network18online.com_10.jpg?impolicy=website&width=1060&height=654" height="400px" width="500px"></img>
+      <form>
+        <table>
+          <tr>
+       <td><label>First Name : </label>
+       <input type="text"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><label>Last Name : </label>
+        <input type="text"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+       <td> <label>DOB : </label>
+        <input type="date"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><label>Email : </label>
+        <input type="text"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><label>Age : </label>
+        <input type="text"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><label>Gender : </label>
+        <input type="radio" name="Gender" value="Male"></input><label>Male</label>
+        <input type="radio" name="Gender" value="Female"></input><label>Female</label></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><lable>Phone number : </lable>
+        <input type="number"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+        <tr>
+        <td><label>Sports : </label>
+        <input type="checkbox"></input><label>Swimming</label>
+        <input type="checkbox"></input><label>Tennis</label>
+        <input type="checkbox"></input><label>Batmittan</label>
+        <input type="checkbox"></input><label>VolleyBall</label>
+        <input type="checkbox"></input><label>Chess</label>
+        <input type="checkbox"></input><label>Other</label><input type="text"></input></td>
+        </tr>
+        <br></br>
+        <br></br>
+         
+        <label>Team Name: </label>&nbsp;
+        <select name="dropdown">
+        <option value="Select" selected>Select</option>
+        <option value="Tamil Thalaivas" required>Tamil Thalaivas</option>
+        <option value="Bengaluru Bulls" required>Bengaluru Bulls</option>
+        <option value="U.P. Yoddha" required>U.P. Yoddha</option>
+        <option value="Gujarat Giants" required>Gujarat Giants</option>
+        
+        </select>
+        </table>
+      </form>
+    </div>
+
+  );
+}
+export default App;
